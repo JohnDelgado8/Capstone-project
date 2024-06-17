@@ -1,0 +1,36 @@
+.my-card {
+  width: 100%;
+  max-width: 300px;
+  // background: radial-gradient(circle, #e1ff35 0%, #018835 100%)
+}
+
+.sign-caption {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.inactive-label {
+  color: white; /* your desired color for inactive label */
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-button {
+  color: #f2f2f2;
+  background-color: #3b945e;
+}
+
+.add-button {
+  color: #3b945e;
+  margin-left: auto;
+}
+
+.add-caption {
+  color: #182628;
+  font-weight: 700;
+}
+

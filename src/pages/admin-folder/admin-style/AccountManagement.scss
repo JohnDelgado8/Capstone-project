@@ -1,0 +1,133 @@
+//Desktop Style start //
+.main-card {
+  height: 700px;
+  background-color: #f2f2f2;
+}
+
+.desktop-style {
+  height: 450px;
+  width: 840px;
+  background-color: white;
+}
+
+.desktop-caption {
+  font-size: 24px;
+}
+
+.desktop-item {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.desktop-field {
+  font-size: 20px;
+}
+
+input,
+select {
+  overflow: visible;
+  text-transform: none;
+  width: 350px;
+}
+
+.desktop-input {
+  width: 350px;
+  height: 40px;
+  border-color: #f2f2f2;
+}
+
+.color-green {
+  background-color: #3b945e;
+  color: #f2f2f2;
+  font-weight: bold;
+}
+
+//Desktop Style end //
+
+// Mobile Style start //
+
+.mobile-style {
+  height: 550px;
+  align-items: center;
+  background-color: white;
+}
+
+.mobile-caption {
+  font-size: 22px;
+}
+
+.mobile-item {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.mobile-field {
+  font-size: 18px;
+}
+
+.mobile-input {
+  width: 380px;
+  height: 40px;
+  border-color: #f2f2f2;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-input {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 728px) {
+  .mobile-input {
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 673px) {
+  .mobile-input {
+    width: 395px;
+    margin-left: 40px;
+  }
+
+  .mobile-item {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 563px) {
+  .mobile-input {
+    width: 350px;
+    margin-left: 40px;
+  }
+
+  .mobile-item {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 519px) {
+  .mobile-input {
+    width: 320px;
+    margin-left: 25px;
+  }
+
+  .mobile-item {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 454px) {
+  .mobile-input {
+    width: 280px;
+    margin-left: 15px;
+  }
+
+  .mobile-item {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 454px) {
+  .mobile-input {
+    width: 250px;
+    margin-left: 5px;
+  }
+}

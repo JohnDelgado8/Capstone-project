@@ -1,0 +1,162 @@
+/**
+  pm Customed Class Names for Background, Text Colors
+
+  NOTE  : Refer to pm.variables.scss for variable references
+  USAGE : eg. enrollment-bg-accent-0, enrollment-bg-hover-accent-0, enrollment-text-accent-0, enrollment-text-hover-accent-0
+*/
+@import 'enrollment.functions';
+
+.enrollment-bg-primary {
+	background-color: $primary !important;
+}
+.enrollment-bg-secondary {
+	background-color: $secondary !important;
+}
+.enrollment-bg-accent-0 {
+	background-color: $accent-0;
+	@media screen and (min-width: $breakpoint-sm-max) {
+		background-color: $accent-0 !important;
+	}
+}
+.enrollment-text-primary {
+	color: $accent-1;
+}
+.enrollment-text-secondary {
+	color: $accent-2;
+}
+
+.enrollment-dark-mode {
+	.enrollment-bg-secondary {
+		background-color: $d-secondary !important;
+	}
+	.enrollment-bg-primary {
+		background-color: $d-primary !important;
+	}
+
+	.enrollment-text-primary {
+		color: $white !important;
+	}
+
+	.enrollment-right-drawer {
+		@media screen and (max-width: 1500px) {
+			box-shadow: -5px 0px 20px -8px rgba(0, 0, 0, 0.4);
+		}
+	}
+}
+
+// HEADER
+.enrollment-header {
+	.enrollment-bg-secondary {
+		@media screen and (max-width: $breakpoint-xs-max) {
+			background-color: $accent-0 !important;
+		}
+	}
+}
+
+//Index Page
+.enrollment-index {
+	.enrollment-text-secondary {
+		color: $primary;
+	}
+}
+
+// LEFT SIDEBAR
+.enrollment-eft-drawer {
+	.enrollment-bg-secondary {
+		@media screen and (max-width: 767px) {
+			background-color: $accent-0 !important;
+		}
+	}
+}
+
+// RIGHT SIDEBAR
+.enrollment-right-drawer {
+	.enrollment-bg-accent-1 {
+		background-color: $accent-1;
+		.enrollment-bg-accent-1 {
+			background-color: $accent-1;
+		}
+	}
+	.enrollment-analog-clock-accent-1 {
+		filter: drop-shadow(5px 5px 3px #707070) !important;
+	}
+	@media screen and (max-width: 1500px) {
+		box-shadow: -5px 0px 20px -8px #aaaaaa;
+	}
+}
+
+// FOOTER
+.enrollment-footer {
+	.enrollment-bg-primary {
+		background-color: $primary;
+		@media screen and (min-width: $breakpoint-sm-min) {
+			background-color: rgba(255, 255, 255, 0.7);
+		}
+	}
+	.enrollment-text-accent-0 {
+		color: $accent-0;
+	}
+}
+
+// Background accent color
+@for $i from 0 through 3 {
+	.enrollment-bg-accent-#{$i} {
+		background-color: color(a, $i);
+	}
+}
+
+// Background accent hover color
+@for $i from 0 through 3 {
+	.enrollment-bg-hover-accent-#{$i} {
+		transition: 0.2s ease-out;
+		&:hover {
+			color: $white;
+			background-color: color(a, $i) !important;
+		}
+	}
+}
+
+// Text accent colors
+@for $i from 0 through 3 {
+	.enrollment-text-accent-#{$i} {
+		color: color(a, $i);
+	}
+	// Text accent hover colors
+	.enrollment-text-hover-accent-#{$i} {
+		transition: 0.2s ease-out;
+		&:hover {
+			color: color(a, $i) !important;
+		}
+	}
+}
+
+// Notification colors
+.enrollment-warning-notif {
+	background-color: #fffaf3;
+	color: #7a4d05 !important;
+	border: 1px solid #ccbea0;
+}
+.enrollment-info-notif {
+	background-color: #f8ffff;
+	color: #0e566c !important;
+	border: 1px solid #bedfe6;
+}
+
+.enrollment-error-notif {
+	background-color: #fff6f6;
+	color: #973937 !important;
+	border: 1px solid #cb9e9e;
+}
+
+.enrollment-success-notif {
+	background-color: #f3ffd8;
+	color: #0c950e !important;
+	border: 1px solid #a8c599;
+}
+
+.enrollment-warning-notif,
+.enrollment-info-notif,
+.enrollment-error-notif,
+.enrollment-success-notif {
+	padding-right: 100px;
+}

@@ -1,0 +1,179 @@
+.my-card {
+  width: 100%;
+  background-color: white;
+  color: #eae1df;
+  height: 200px;
+}
+
+.card-color {
+  width: 100%;
+  background-color: #57ba98;
+  color: #eae1df;
+  height: 200px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .my-card {
+    width: 100%;
+    max-width: 440px;
+    background-color: white;
+    color: #eae1df;
+  }
+}
+
+@media only screen and (max-width: 1152px) {
+  .my-card {
+    width: 100%;
+    max-width: 420px;
+    background-color: #5f6062;
+    color: #eae1df;
+  }
+}
+
+@media only screen and (max-width: 1112px) {
+  .my-card {
+    width: 100%;
+    max-width: 390px;
+    background-color: #5f6062;
+    color: #eae1df;
+  }
+}
+
+@media only screen and (max-width: 1052px) {
+  .my-card {
+    width: 100%;
+    max-width: 360px;
+    background-color: #5f6062;
+    color: #eae1df;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .my-card {
+    width: 100%;
+    max-width: 320px;
+    background-color: #5f6062;
+    color: #eae1df;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .my-card {
+    width: 100%;
+    max-width: 280px;
+    background-color: #5f6062;
+    color: #eae1df;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .my-card {
+    width: 100%;
+    max-width: 240px;
+    background-color: #5f6062;
+    color: #eae1df;
+  }
+}
+@media only screen and (max-width: 752px) {
+  .my-card {
+    width: 100%;
+    max-width: 420px;
+    background-color: #5f6062;
+    color: #eae1df;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .my-card {
+    width: 100%;
+    max-width: 638px;
+    background-color: #5f6062;
+    color: #eae1df;
+  }
+}
+
+.card-size {
+  height: 750px;
+  background-color: #f2f2f2;
+}
+
+@media only screen and (max-width: 1300px) {
+  .card-size {
+    height: 1250px;
+    background-color: #f2f2f2;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .card-size {
+    height: 1050px;
+    background-color: #f2f2f2;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .card-size {
+    height: 1120px;
+    background-color: #f2f2f2;
+  }
+}
+
+@media only screen and (max-width: 994px) {
+  .card-size {
+    height: 1200px;
+    background-color: #f2f2f2;
+  }
+}
+
+@media only screen and (max-width: 831px) {
+  .card-size {
+    height: 1350px;
+    background-color: #f2f2f2;
+  }
+}
+@media only screen and (max-width: 752px) {
+  .card-size {
+    height: 1830px;
+    background-color: #f2f2f2;
+  }
+}
+
+@media only screen and (max-width: 673px) {
+  .card-size {
+    height: 1650px;
+    background-color: #f2f2f2;
+  }
+}
+@media only screen and (max-width: 552px) {
+  .card-size {
+    height: 1830px;
+    background-color: #f2f2f2;
+  }
+}
+
+.cite-caption {
+  font-weight: bold;
+
+}
+@media only screen and (max-width: 673px) {
+  .cite-caption {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    color: #023020;
+  }
+}
+
+.course-caption {
+  color: #182628;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.animation-color {
+  color: #182628;
+}
+
+.it-color {
+  color: #fef250;
+}

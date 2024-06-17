@@ -1,0 +1,329 @@
+.my-card {
+  width: 100%;
+  background-color: white;
+  color: #eae1df;
+  height: 145px;
+}
+
+.main-padding {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media only screen and (max-width: 440px) {
+  .main-padding {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  .main-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 358px) {
+  .main-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.row-position {
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.card-size {
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+@media only screen and (max-width: 634px) {
+  .card-size {
+    height: 2020px;
+    background-color: #f2f2f2;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .card-size {
+    height: 2150px;
+    background-color: #f2f2f2;
+  }
+}
+
+@media only screen and (max-width: 1083px) {
+  .my-card {
+    height: 230px;
+  }
+}
+
+@media only screen and (max-width: 829px) {
+  .my-card {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .my-card {
+    height: 340px;
+  }
+}
+
+@media only screen and (max-width: 772px) {
+  .my-card {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 634px) {
+  .my-card {
+    height: 470px;
+  }
+}
+@media only screen and (max-width: 454px) {
+  .my-card {
+    height: 460px;
+  }
+}
+
+.course-caption {
+  color: #182628;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.animation-color {
+  color: lightgreen;
+}
+
+.it-color {
+  color: #fef250;
+}
+
+.select-field {
+  width: 270px;
+  margin-top: 30px;
+  background-color: #f2f2f2;
+}
+
+@media only screen and (max-width: 1250px) {
+  .select-field {
+    max-width: 200px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .select-field {
+    max-width: 180px;
+  }
+}
+
+@media only screen and (max-width: 1167px) {
+  .select-field {
+    max-width: 250px;
+  }
+}
+
+@media only screen and (max-width: 954px) {
+  .select-field {
+    max-width: 200px;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .select-field {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 634px) {
+  .select-field {
+    width: 100%;
+  }
+}
+
+.input-time {
+  height: 56px;
+  width: 180px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .input-time {
+    max-width: 140px;
+  }
+}
+
+@media only screen and (max-width: 1177px) {
+  .input-time {
+    max-width: 150px;
+  }
+}
+@media only screen and (max-width: 1118px) {
+  .input-time {
+    max-width: 250px;
+  }
+}
+@media only screen and (max-width: 785px) {
+  .input-time {
+    max-width: 250px;
+  }
+}
+
+@media only screen and (max-width: 634px) {
+  .input-time {
+    width: 900px;
+  }
+}
+
+.AM-position {
+  margin-top: 9px;
+}
+
+.AM-time {
+  height: 40px;
+  margin-top: 38px;
+}
+
+.AM-icon {
+  margin-top: 42px;
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 740px) {
+  .AM-icon {
+    margin-top: 35px;
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .AM-time {
+    height: 40px;
+    margin-top: 38px;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .AM-time {
+    height: 40px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 634px) {
+  .AM-time {
+    height: 40px;
+    margin-top: 38px;
+  }
+}
+
+.mobile-input {
+  width: 400px;
+  background-color: #f2f2f2;
+  height: 56px;
+}
+
+@media only screen and (max-width: 615px) {
+  .mobile-input {
+    width: 370px;
+    background-color: #f2f2f2;
+    height: 56px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .mobile-input {
+    width: 340px;
+    background-color: #f2f2f2;
+    height: 56px;
+  }
+}
+
+@media only screen and (max-width: 573px) {
+  .mobile-input {
+    width: 300px;
+    background-color: #f2f2f2;
+    height: 56px;
+  }
+}
+
+@media only screen and (max-width: 534px) {
+  .mobile-input {
+    width: 270px;
+    background-color: #f2f2f2;
+    height: 56px;
+  }
+}
+@media only screen and (max-width: 504px) {
+  .mobile-input {
+    width: 240px;
+    background-color: #f2f2f2;
+    height: 56px;
+  }
+}
+
+@media only screen and (max-width: 453px) {
+  .mobile-input {
+    width: 200px;
+    background-color: #f2f2f2;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 348px) {
+  .mobile-input {
+    width: 170px;
+    background-color: #f2f2f2;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 318px) {
+  .mobile-input {
+    width: 150px;
+    background-color: #f2f2f2;
+    height: 50px;
+  }
+}
+
+.mobile-time {
+  width: 90px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 478px) {
+  .mobile-time {
+    width: 70px;
+    margin-top: 43px;
+    font-size: 10px;
+  }
+}
+
+.mobile-time-PM {
+  width: 90px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 478px) {
+  .mobile-time-PM {
+    width: 70px;
+    margin-top: 37px;
+    font-size: 10px;
+  }
+}
+
+.arrow-mobile {
+  width: 100%;
+  font-size: 32px;
+  color: #182628;
+}
+
+@media only screen and (max-width: 478px) {
+  .arrow-mobile {
+    width: 100%;
+    font-size: 28px;
+    color: #182628;
+  }
+}

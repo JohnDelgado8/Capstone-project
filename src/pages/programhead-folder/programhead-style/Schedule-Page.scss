@@ -1,0 +1,53 @@
+.calendar-table {
+  display: flex;
+  max-width: 1140px;
+  width: 100%;
+}
+
+.custom-height .q-select__control .q-field__native {
+  height: 40px; /* Adjust the height value as per your requirement */
+}
+
+@media only screen and (max-width: 1300px) {
+  .calendar-table {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media only screen and (max-width: 688px) {
+  .calendar-table {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.add-btn {
+  background-color: #182628;
+  color: #f2f2f2;
+}
+
+.badge-margin {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .badge-margin {
+    margin-top: 20px;
+  }
+}
+
+.row-btn {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@media only screen and (max-width: 688px) {
+  .row-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.q-calendar-day-resources .q-calendar-day-resource-intervals {
+  opacity: 1 !important;
+}

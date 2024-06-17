@@ -1,0 +1,167 @@
+.card-desktop {
+  height: 800px;
+  background-color: #f2f2f2;
+}
+
+.card-mobile {
+  height: 800px;
+  background-color: #f2f2f2;
+}
+
+.form-space {
+  height: 230px;
+  margin-left: 70px;
+}
+
+.create-caption {
+  font-size: 25px;
+}
+
+.form-size {
+  background-color: white;
+  height: 500px;
+}
+
+.input-field {
+  width: 500px;
+}
+
+.back-button {
+  background-color: #fef250;
+}
+
+@media only screen and (max-width: 1300px) {
+  .input-field {
+    width: 400px;
+  }
+  .form-space {
+    margin-left: 35px;
+  }
+  .form-size {
+    background-color: white;
+    height: 440px;
+  }
+}
+
+@media only screen and (max-width: 1207px) {
+  .input-field {
+    width: 350px;
+  }
+  .form-space {
+    margin-left: 35px;
+  }
+  .form-size {
+    background-color: white;
+    height: 440px;
+  }
+}
+
+@media only screen and (max-width: 1109px) {
+  .input-field {
+    width: 350px;
+  }
+  .form-space {
+    margin-left: 15px;
+  }
+  .form-size {
+    background-color: white;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 1086px) {
+  .input-field {
+    width: 330px;
+  }
+  .form-space {
+    margin-left: 15px;
+  }
+  .form-size {
+    background-color: white;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 1073px) {
+  .input-field {
+    width: 680px;
+  }
+}
+
+@media only screen and (max-width: 1007px) {
+  .input-field {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 935px) {
+  .input-field {
+    width: 550px;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .input-field {
+    width: 530px;
+  }
+}
+
+@media only screen and (max-width: 872px) {
+  .input-field {
+    width: 480px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .input-field {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 736px) {
+  .input-field {
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 672px) {
+  .input-field {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 619px) {
+  .input-field {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .input-field {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 476px) {
+  .input-field {
+    width: 340px;
+  }
+}
+
+@media only screen and (max-width: 417px) {
+  .input-field {
+    width: 300px;
+  }
+  .form-space {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .form-size {
+    height: 420px;
+  }
+}
+
+@media only screen and (max-width: 1073px) {
+  .form-size {
+    height: 725px;
+  }
+}

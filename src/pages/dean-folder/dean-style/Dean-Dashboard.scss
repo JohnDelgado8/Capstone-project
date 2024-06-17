@@ -1,0 +1,37 @@
+.my-card {
+  width: 100%;
+  max-width: 300px;
+  background-color: #5f6062;
+  color: #eae1df;
+}
+
+.card-size {
+  height: 750px;
+  background-color: #f2f2f2;
+}
+
+.course-caption {
+  color: #182628;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.animation-color {
+  color: lightgreen;
+}
+
+.it-color {
+  color: #fef250;
+}
+
+// @media only screen and (max-width: 1199px) {
+//   .my-card {
+//     max-width: 200px;
+//   }
+// }
+
+// @media only screen and (max-width: 1095px) {
+//   .my-card {
+//     max-width: 180px;
+//   }
+// }
