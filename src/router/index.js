@@ -9,7 +9,7 @@ import routes from "./routes";
 import auth from "src/Auth/auth";
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(),
   routes,
 });
 router.beforeEach((to, from, next) => {
